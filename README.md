@@ -2,6 +2,12 @@
 因果的結合を可視化するためのものです。ver0なので今後改良していきます.
 
 各領野間の因果関係を示した行列Adjを引数として実行します.
+
+# インストール
+適当なフォルダの下で
+```
+git clone https://github.com/ynk-samez/visualizeNetwrok.git
+```
 # 使い方
 ```
 visualizeNetwork(Adj)
