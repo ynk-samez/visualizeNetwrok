@@ -4,13 +4,14 @@
 各領野間の因果関係を示した行列Adjを引数として実行します.
 
 # インストール
-適当なフォルダの下で
+リモートにクローンする。
 ```
 git clone https://github.com/ynk-samez/visualizeNetwrok.git
 ```
-
-## 表示のテスト
-関数を呼び出します。
+```
+cd visualizeNetwork
+```
+正しく表示されるかのテスト
 ```
 MainSample
 ```
