@@ -1,8 +1,6 @@
 function visualizeNetwork(Adj)
 
 config;
-%=======以下、基本はいじらない=========
-
 x=1;y=2;
     %ノードの基本座標生成
 xt=2*pi/size(Adj,x);
@@ -41,7 +39,7 @@ figure(1)
     h.NodeFontName = NODE_LABEL_FONT;
     h.NodeLabelColor=NODE_LABEL_COLOR;
     h.NodeFontAngle='normal';
-
+    h.ArrowSize=ARROW_SIZE;
     h.EdgeFontName=EDGE_LABEL_FONT;
     h.EdgeLabelColor=EDGE_LABEL_COLOR;
     h.EdgeFontSize=EDGE_LABEL_SIZE;
