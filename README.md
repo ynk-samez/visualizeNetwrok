@@ -4,16 +4,16 @@
 各領野間の因果関係を示した行列Adjを引数として実行します.
 
 # インストール
-Matlabのコマンドラインで以下を実行してください。
+**Matlabのコマンドラインで以下を実行してください。**
 
-リモートにクローンする。
+- リモートにクローンする。
 ```
 git clone https://github.com/ynk-samez/visualizeNetwrok.git
 ```
 ```
 cd visualizeNetwork
 ```
-正しく表示されるかのテスト
+- 正しく表示されるかのテスト
 ```
 MainSample
 ```
